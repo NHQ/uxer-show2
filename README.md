@@ -27,7 +27,7 @@ to run the demo
 git clone git@github.com:NHQ/uxer-show.git
 npm install -g watchify opa
 cd uxer-show
-opa
+opa -e entry -o public/bundle.js
 ```
 watchify is browserify w/ file watching
 [opa](https://github.com/NHQ/opa) is a speedy way to prototype front-end stuff
